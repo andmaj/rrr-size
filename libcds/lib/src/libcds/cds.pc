@@ -1,0 +1,11 @@
+prefix=/home/andras/rrr-size-vs-density/libcds/lib/build
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libcds
+Description: C++ Compact Data Structures Library
+Version: 1.0
+URL: https://github.com/fclaude/libcds
+Libs: -L${libdir} -lcds
+Cflags: -I${includedir}/libcds -I${libdir}/libcds/include
