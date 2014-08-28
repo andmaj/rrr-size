@@ -1,6 +1,6 @@
 # rrr-size
 
-*RRR block size vs compression ratio
+*RRR block size vs compression ratio*
 
 ## Compile
 
