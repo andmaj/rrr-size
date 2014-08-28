@@ -4,11 +4,11 @@
 
 ## Compile
 
-```make```
+make
 
 ## Run
 
-```make run```
+make run
 
 ## Results
 
