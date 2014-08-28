@@ -1,0 +1,6 @@
+/home/andras/rrr-size-vs-density/sdsl/lib/build/lib/pkgconfig/libdivsufsort.pc
+/home/andras/rrr-size-vs-density/sdsl/lib/build/lib/pkgconfig/libdivsufsort64.pc
+/home/andras/rrr-size-vs-density/sdsl/lib/build/include/divsufsort.h
+/home/andras/rrr-size-vs-density/sdsl/lib/build/include/divsufsort64.h
+/home/andras/rrr-size-vs-density/sdsl/lib/build/lib/libdivsufsort.a
+/home/andras/rrr-size-vs-density/sdsl/lib/build/lib/libdivsufsort64.a

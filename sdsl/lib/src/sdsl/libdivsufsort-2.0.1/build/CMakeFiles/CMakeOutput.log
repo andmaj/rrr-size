@@ -1,0 +1,469 @@
+The system is: Linux - 3.14.8-100.fc19.x86_64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3816482217/fast"
+gmake[1]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3816482217.dir/build.make CMakeFiles/cmTryCompileExec3816482217.dir/build
+gmake[2]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3816482217.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3816482217.dir/testCCompiler.c.o   -c /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3816482217
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3816482217.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3816482217.dir/testCCompiler.c.o  -o cmTryCompileExec3816482217 -rdynamic 
+gmake[2]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3121744368/fast"
+gmake[1]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3121744368.dir/build.make CMakeFiles/cmTryCompileExec3121744368.dir/build
+gmake[2]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3121744368.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3121744368.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec3121744368
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3121744368.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec3121744368.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3121744368 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/lto-wrapper
+Target: x86_64-redhat-linux
+Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-isl=/builddir/build/BUILD/gcc-4.8.2-20131212/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.2-20131212/obj-x86_64-redhat-linux/cloog-install --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux
+Thread model: posix
+gcc version 4.8.2 20131212 (Red Hat 4.8.2-7) (GCC) 
+COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.2/:/usr/lib/gcc/x86_64-redhat-linux/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.2/:/usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3121744368' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3121744368 /usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.2/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.2 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../.. CMakeFiles/cmTryCompileExec3121744368.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.2/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64/crtn.o
+gmake[2]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec3121744368/fast"]
+  ignore line: [gmake[1]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3121744368.dir/build.make CMakeFiles/cmTryCompileExec3121744368.dir/build]
+  ignore line: [gmake[2]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec3121744368.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3121744368.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec3121744368]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3121744368.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec3121744368.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec3121744368 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/lto-wrapper]
+  ignore line: [Target: x86_64-redhat-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugzilla.redhat.com/bugzilla --enable-bootstrap --enable-shared --enable-threads=posix --enable-checking=release --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-linker-hash-style=gnu --enable-languages=c,c++,objc,obj-c++,java,fortran,ada,go,lto --enable-plugin --enable-initfini-array --enable-java-awt=gtk --disable-dssi --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-1.5.0.0/jre --enable-libgcj-multifile --enable-java-maintainer-mode --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --disable-libjava-multilib --with-isl=/builddir/build/BUILD/gcc-4.8.2-20131212/obj-x86_64-redhat-linux/isl-install --with-cloog=/builddir/build/BUILD/gcc-4.8.2-20131212/obj-x86_64-redhat-linux/cloog-install --with-tune=generic --with-arch_32=i686 --build=x86_64-redhat-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.8.2 20131212 (Red Hat 4.8.2-7) (GCC) ]
+  ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/:/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/4.8.2/:/usr/lib/gcc/x86_64-redhat-linux/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/4.8.2/:/usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3121744368' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec3121744368 /usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.2/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.2 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../.. CMakeFiles/cmTryCompileExec3121744368.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/4.8.2/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64/crtn.o]
+    arg [/usr/libexec/gcc/x86_64-redhat-linux/4.8.2/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec3121744368] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.2/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.2] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.2]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../..]
+    arg [CMakeFiles/cmTryCompileExec3121744368.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.2/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.2] ==> [/usr/lib/gcc/x86_64-redhat-linux/4.8.2]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../../../lib64] ==> [/usr/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/usr/lib/gcc/x86_64-redhat-linux/4.8.2/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-redhat-linux/4.8.2;/usr/lib64;/lib64;/usr/lib]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test HAVE_GCC_WALL succeded with the following output:
+Change Dir: /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec667127751/fast"
+gmake[1]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec667127751.dir/build.make CMakeFiles/cmTryCompileExec667127751.dir/build
+gmake[2]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec667127751.dir/src.c.o
+/usr/bin/cc   -DHAVE_GCC_WALL -Wall   -o CMakeFiles/cmTryCompileExec667127751.dir/src.c.o   -c /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec667127751
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec667127751.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE_GCC_WALL -Wall    CMakeFiles/cmTryCompileExec667127751.dir/src.c.o  -o cmTryCompileExec667127751 -rdynamic 
+gmake[2]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_FOMIT_FRAME_POINTER succeded with the following output:
+Change Dir: /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3709355279/fast"
+gmake[1]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3709355279.dir/build.make CMakeFiles/cmTryCompileExec3709355279.dir/build
+gmake[2]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3709355279.dir/src.c.o
+/usr/bin/cc   -Wall -DHAVE_GCC_FOMIT_FRAME_POINTER -fomit-frame-pointer   -o CMakeFiles/cmTryCompileExec3709355279.dir/src.c.o   -c /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3709355279
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3709355279.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DHAVE_GCC_FOMIT_FRAME_POINTER -fomit-frame-pointer    CMakeFiles/cmTryCompileExec3709355279.dir/src.c.o  -o cmTryCompileExec3709355279 -rdynamic 
+gmake[2]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2737551941/fast"
+gmake[1]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2737551941.dir/build.make CMakeFiles/cmTryCompileExec2737551941.dir/build
+gmake[2]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2737551941.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2737551941.dir/CheckIncludeFile.c.o   -c /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2737551941
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2737551941.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2737551941.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2737551941 -rdynamic 
+gmake[2]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2622642999/fast"
+gmake[1]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2622642999.dir/build.make CMakeFiles/cmTryCompileExec2622642999.dir/build
+gmake[2]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2622642999.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2622642999.dir/CheckIncludeFile.c.o   -c /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2622642999
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2622642999.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2622642999.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2622642999 -rdynamic 
+gmake[2]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3788196624/fast"
+gmake[1]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3788196624.dir/build.make CMakeFiles/cmTryCompileExec3788196624.dir/build
+gmake[2]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3788196624.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec3788196624.dir/CheckIncludeFile.c.o   -c /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3788196624
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3788196624.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec3788196624.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3788196624 -rdynamic 
+gmake[2]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4162465799/fast"
+gmake[1]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4162465799.dir/build.make CMakeFiles/cmTryCompileExec4162465799.dir/build
+gmake[2]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4162465799.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec4162465799.dir/CheckIncludeFile.c.o   -c /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4162465799
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4162465799.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec4162465799.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4162465799 -rdynamic 
+gmake[2]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1173198351/fast"
+gmake[1]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1173198351.dir/build.make CMakeFiles/cmTryCompileExec1173198351.dir/build
+gmake[2]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1173198351.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1173198351.dir/CheckIncludeFile.c.o   -c /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1173198351
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1173198351.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec1173198351.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1173198351 -rdynamic 
+gmake[2]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1712664404/fast"
+gmake[1]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1712664404.dir/build.make CMakeFiles/cmTryCompileExec1712664404.dir/build
+gmake[2]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1712664404.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1712664404.dir/CheckIncludeFile.c.o   -c /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1712664404
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1712664404.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec1712664404.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1712664404 -rdynamic 
+gmake[2]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec119489183/fast"
+gmake[1]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec119489183.dir/build.make CMakeFiles/cmTryCompileExec119489183.dir/build
+gmake[2]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec119489183.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec119489183.dir/CheckIncludeFile.c.o   -c /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec119489183
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec119489183.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec119489183.dir/CheckIncludeFile.c.o  -o cmTryCompileExec119489183 -rdynamic 
+gmake[2]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2208106291/fast"
+gmake[1]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2208106291.dir/build.make CMakeFiles/cmTryCompileExec2208106291.dir/build
+gmake[2]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2208106291.dir/CheckIncludeFile.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2208106291.dir/CheckIncludeFile.c.o   -c /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2208106291
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2208106291.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2208106291.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2208106291 -rdynamic 
+gmake[2]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_INLINE succeded with the following output:
+Change Dir: /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2533543945/fast"
+gmake[1]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2533543945.dir/build.make CMakeFiles/cmTryCompileExec2533543945.dir/build
+gmake[2]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2533543945.dir/src.c.o
+/usr/bin/cc   -Wall -DHAVE_INLINE   -o CMakeFiles/cmTryCompileExec2533543945.dir/src.c.o   -c /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2533543945
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2533543945.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DHAVE_INLINE    CMakeFiles/cmTryCompileExec2533543945.dir/src.c.o  -o cmTryCompileExec2533543945 -rdynamic 
+gmake[2]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+inline void func(); void func() { } int main() { func(); return 0; }
+Performing C SOURCE FILE Test HAVE___INLINE succeded with the following output:
+Change Dir: /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3824998205/fast"
+gmake[1]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3824998205.dir/build.make CMakeFiles/cmTryCompileExec3824998205.dir/build
+gmake[2]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3824998205.dir/src.c.o
+/usr/bin/cc   -Wall -DHAVE___INLINE   -o CMakeFiles/cmTryCompileExec3824998205.dir/src.c.o   -c /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3824998205
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3824998205.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DHAVE___INLINE    CMakeFiles/cmTryCompileExec3824998205.dir/src.c.o  -o cmTryCompileExec3824998205 -rdynamic 
+gmake[2]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+__inline void func(); void func() { } int main() { func(); return 0; }
+Performing C SOURCE FILE Test HAVE___INLINE__ succeded with the following output:
+Change Dir: /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3352013763/fast"
+gmake[1]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3352013763.dir/build.make CMakeFiles/cmTryCompileExec3352013763.dir/build
+gmake[2]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3352013763.dir/src.c.o
+/usr/bin/cc   -Wall -DHAVE___INLINE__   -o CMakeFiles/cmTryCompileExec3352013763.dir/src.c.o   -c /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3352013763
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3352013763.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DHAVE___INLINE__    CMakeFiles/cmTryCompileExec3352013763.dir/src.c.o  -o cmTryCompileExec3352013763 -rdynamic 
+gmake[2]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+__inline__ void func(); void func() { } int main() { func(); return 0; }
+Determining size of uint8_t passed with the following output:
+Change Dir: /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2402516432/fast"
+gmake[1]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2402516432.dir/build.make CMakeFiles/cmTryCompileExec2402516432.dir/build
+gmake[2]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2402516432.dir/UINT8_T.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2402516432.dir/UINT8_T.c.o   -c /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CheckTypeSize/UINT8_T.c
+Linking C executable cmTryCompileExec2402516432
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2402516432.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2402516432.dir/UINT8_T.c.o  -o cmTryCompileExec2402516432 -rdynamic 
+gmake[2]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of int32_t passed with the following output:
+Change Dir: /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3830037986/fast"
+gmake[1]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3830037986.dir/build.make CMakeFiles/cmTryCompileExec3830037986.dir/build
+gmake[2]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3830037986.dir/INT32_T.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec3830037986.dir/INT32_T.c.o   -c /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CheckTypeSize/INT32_T.c
+Linking C executable cmTryCompileExec3830037986
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3830037986.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec3830037986.dir/INT32_T.c.o  -o cmTryCompileExec3830037986 -rdynamic 
+gmake[2]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the PRId32 exist passed with the following output:
+Change Dir: /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3095080934/fast"
+gmake[1]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3095080934.dir/build.make CMakeFiles/cmTryCompileExec3095080934.dir/build
+gmake[2]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3095080934.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec3095080934.dir/CheckSymbolExists.c.o   -c /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3095080934
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3095080934.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec3095080934.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3095080934 -rdynamic 
+gmake[2]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+
+File /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <inttypes.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef PRId32
+  return ((int*)(&PRId32))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of int64_t passed with the following output:
+Change Dir: /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2111092924/fast"
+gmake[1]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2111092924.dir/build.make CMakeFiles/cmTryCompileExec2111092924.dir/build
+gmake[2]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2111092924.dir/INT64_T.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2111092924.dir/INT64_T.c.o   -c /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CheckTypeSize/INT64_T.c
+Linking C executable cmTryCompileExec2111092924
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2111092924.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2111092924.dir/INT64_T.c.o  -o cmTryCompileExec2111092924 -rdynamic 
+gmake[2]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the PRId64 exist passed with the following output:
+Change Dir: /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3676712374/fast"
+gmake[1]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3676712374.dir/build.make CMakeFiles/cmTryCompileExec3676712374.dir/build
+gmake[2]: Entering directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3676712374.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec3676712374.dir/CheckSymbolExists.c.o   -c /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3676712374
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3676712374.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec3676712374.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3676712374 -rdynamic 
+gmake[2]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory `/home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp'
+
+File /home/andras/rrr-size-vs-density/sdsl/lib/src/sdsl/libdivsufsort-2.0.1/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <inttypes.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef PRId64
+  return ((int*)(&PRId64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
