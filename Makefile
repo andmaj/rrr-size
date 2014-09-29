@@ -4,6 +4,7 @@ MAKEDIR := $(patsubst %/,%,$(dir $(MAKEFILE_PATH)))
 LIBCDS_SRC=$(MAKEDIR)/libcds/lib/src/libcds
 LIBCDS_BUILD=$(MAKEDIR)/libcds/lib/build
 
+SDSL_DIR=$(MAKEDIR)/sdsl
 SDSL_SRC=$(MAKEDIR)/sdsl/lib/src/sdsl
 SDSL_BUILD=$(MAKEDIR)/sdsl/lib/build
 
@@ -39,7 +40,7 @@ libcds-build:
 	(cd $(LIBCDS_SRC); ./configure --prefix=$(LIBCDS_BUILD) && make && make install)
 
 sdsl-build:
-	(cd $(SDSL_SRC); ./install.sh $(SDSL_BUILD))
+	(cd $(SDSL_SRC); find $(SDSL_DIR) -name 'CMakeCache.txt' -exec rm {} \+; ./install.sh $(SDSL_BUILD))
 
 sdsl-lite-build:
 	(cd $(SDSL_LITE_SRC); ./install.sh $(SDSL_LITE_BUILD))
