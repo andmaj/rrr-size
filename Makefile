@@ -97,6 +97,7 @@ run:
 	(cd $(BITMAPSDIR); $(RRR_SIZE_DIR)/bin/rrr-size-sdsl-lite-128 `cat bitmaps.lst` > $(RESULTS)/sdsl-lite-128.txt)
 	(cd $(BITMAPSDIR); $(RRR_SIZE_DIR)/bin/rrr-size-sdsl-lite-256 `cat bitmaps.lst` > $(RESULTS)/sdsl-lite-256.txt)
 	(cd $(BITMAPSDIR); LD_PRELOAD=$(LIBCDS_BUILD)/lib/libcds.so.1 $(RRR_SIZE_DIR)/bin/rrr-size-libcds-15 `cat bitmaps.lst` > $(RESULTS)/libcds-15.txt)
+	(cd $(RESULTS); $(RRR_SIZE_DIR)/genplotdata.sh; gnuplot $(RRR_SIZE_DIR)/plot.cmd)
 
 clean:
 	# Verbosity for safety!
@@ -128,3 +129,5 @@ clean:
 	rm -f $(RRR_SIZE_DIR)/bin/rrr-size-*
 	rm -f $(RESULTS)/sdsl*
 	rm -f $(RESULTS)/libcds*
+	rm -f $(RESULTS)/plot.dat
+	rm -f $(RESULTS)/plot.png
